@@ -64,7 +64,7 @@ export default function App() {
         ))}
       </div>
       <hr />
-      <div style={{ textAlign: "center" }}>
+      <div style={{ textAlign: "left" }}>
         <ul style={{ paddingInlineStart: "0" }}>
           {cuisineDB[selectedType].map((Cuisine) => (
             <li
