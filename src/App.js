@@ -83,7 +83,7 @@ export default function App() {
               <div style={{ fontSize: "larger" }}> {Cuisine.name} </div>
               <div style={{ fontSize: "smaller" }}>
                 {" "}
-                <span>⭐ </span>: {Cuisine.rating}{" "}
+                Rating: {Cuisine.rating}{" "}
               </div>
             </li>
           ))}
